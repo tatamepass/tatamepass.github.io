@@ -58,7 +58,7 @@ p { color: var(--text-muted); margin: 0 0 16px; }
   gap: 16px;
 }
 
-.header-logo { height: 32px; display: block; }
+.header-logo { height: 42px; display: block; }
 
 .header-nav {
   display: flex;
