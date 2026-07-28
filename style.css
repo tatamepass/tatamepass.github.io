@@ -119,6 +119,15 @@ p { color: var(--text-muted); margin: 0 0 16px; }
   margin-bottom: 28px;
 }
 
+.hero-kicker {
+  color: var(--red);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
 .hero h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   max-width: 720px;
@@ -164,6 +173,8 @@ p { color: var(--text-muted); margin: 0 0 16px; }
 /* How it works */
 .how-it-works { padding: 80px 0; }
 
+.how-it-works .steps { margin-top: 64px; }
+
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -189,11 +200,50 @@ p { color: var(--text-muted); margin: 0 0 16px; }
 
 .step p { margin: 0; }
 
+/* Benefits */
+.benefits { padding: 80px 0; background: var(--bg-alt); }
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.benefit-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--red);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.benefit-card h3 { color: var(--text); font-size: 1.05rem; }
+
+.benefit-card p { margin: 0; font-size: 0.95rem; }
+
+.benefits-note {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.benefits-note p {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.benefits-note strong { color: var(--text); }
+
 /* Contact */
 .contact {
   padding: 80px 0 96px;
-  background: var(--bg-alt);
+  background: var(--bg);
   text-align: center;
+}
+
+.contact-tagline {
+  max-width: 480px;
+  margin: 0 auto 40px;
+  font-style: italic;
 }
 
 .contact-inner p { max-width: 480px; margin: 0 auto 40px; }
