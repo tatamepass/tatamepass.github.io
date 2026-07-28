@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TatamePass — Gestão fácil para academias de artes marciais</title>
+<meta name="description" content="TatamePass é o sistema de gestão para academias de artes marciais: controle de mensalidades e presença de alunos por geolocalização, de forma fácil e descomplicada.">
+<link rel="icon" type="image/png" href="assets/icon.png">
+
+<meta property="og:title" content="TatamePass — Gestão fácil para academias de artes marciais">
+<meta property="og:description" content="Controle de mensalidades e presença por geolocalização para professores de artes marciais.">
+<meta property="og:image" content="assets/logo.png">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <img src="assets/logo.png" alt="TatamePass" class="header-logo">
+    <nav class="header-nav">
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="https://wa.me/5515997076947" class="btn btn-primary header-cta" target="_blank" rel="noopener">Falar no WhatsApp</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <img src="assets/icon.png" alt="" class="hero-icon" aria-hidden="true">
+      <h1>Gestão fácil e descomplicada para a sua academia</h1>
+      <p class="hero-sub">
+        TatamePass cuida do controle de mensalidades e da presença dos alunos
+        por geolocalização — pra você focar no que importa: dar aula.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5515997076947" class="btn btn-primary" target="_blank" rel="noopener">Quero conhecer</a>
+        <a href="#funcionalidades" class="btn btn-ghost">Ver funcionalidades</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="funcionalidades" class="features">
+    <div class="container">
+      <h2>O que o TatamePass resolve pra você</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Controle de mensalidades</h3>
+          <p>
+            Saiba exatamente quem está em dia e quem está pendente, sem
+            planilha e sem cobrar aluno por aluno de memória.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3>Presença por geolocalização</h3>
+          <p>
+            O check-in só é liberado quando o aluno está de fato no tatame —
+            presença real, registrada automaticamente.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Painel do professor</h3>
+          <p>
+            Um painel simples com a lista de alunos, situação de pagamento e
+            histórico de check-ins, tudo em um só lugar.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="how-it-works">
+    <div class="container">
+      <h2>Simples assim</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>Aluno se cadastra</h3>
+          <p>Cadastro rápido pelo celular, sem burocracia.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>Check-in no tatame</h3>
+          <p>Ao chegar na academia, o aluno faz check-in — validado por geolocalização.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>Professor acompanha tudo</h3>
+          <p>Presença e mensalidade organizadas automaticamente no painel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <div class="container contact-inner">
+      <h2>Vamos conversar</h2>
+      <p>Quer levar o TatamePass pra sua academia? Fala com a gente.</p>
+      <div class="contact-links">
+        <a href="https://wa.me/5515997076947" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">(15) 99707-6947</span>
+        </a>
+        <a href="mailto:tatamepass@gmail.com" class="contact-link">
+          <span class="contact-label">E-mail</span>
+          <span class="contact-value">tatamepass@gmail.com</span>
+        </a>
+        <a href="https://instagram.com/tatamepass" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@tatamepass</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="assets/icon.png" alt="" class="footer-icon" aria-hidden="true">
+    <p>&copy; <span id="ano"></span> TatamePass. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("ano").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
