@@ -1,0 +1,14 @@
+<svg viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(10,10) scale(0.19531)">
+    <rect width="1024" height="1024" rx="230" fill="#171717"/>
+    <rect x="110" y="110" width="804" height="804" rx="24" fill="none" stroke="#3a3a3a" stroke-width="4"/>
+    <line x1="512" y1="110" x2="512" y2="914" stroke="#3a3a3a" stroke-width="4"/>
+    <line x1="110" y1="512" x2="914" y2="512" stroke="#3a3a3a" stroke-width="4"/>
+    <path d="M512,838 C512,838 258,592 258,440 A254,254 0 1,1 766,440 C766,592 512,838 512,838 Z" fill="#E8544C"/>
+    <circle cx="512" cy="438" r="118" fill="#171717"/>
+    <path d="M452,443 L494,488 L578,382" fill="none" stroke="#FFFFFF" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="248" y="140" font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="98" letter-spacing="-2">
+    <tspan fill="#FFFFFF">Dojo</tspan><tspan fill="#E8544C">Pass</tspan>
+  </text>
+</svg>
